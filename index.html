@@ -3,10 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-
   <div class="navbar">
     <img src="/images/logo.PNG" alt="Logo">
     <div class="navbar-right">
@@ -21,20 +20,20 @@
  <div class="background-container">
     <img class="background-image" src="/images/background.jpg" alt="Background Image">
     <div class="img-overlay">
-      <div class="kutu-container">
-        <div class="kutu" id="kutu1"> <!-- Birinci Kutu -->
-          <img id="resim1" src="" alt="Resim 1" class="image-size">
-          <div id="yazi1" class="yazi-property"></div>
+      <div class="box-container">
+        <div class="box" id="box1"> <!-- Birinci box -->
+          <img id="image1" src="" alt="image 1" class="image-size">
+          <div id="text1" class="text-property"></div>
         </div>
         
-        <div class="kutu" id="kutu2"> <!-- İkinci Kutu -->
-           <img id="resim2" src="" alt="Resim 2" class="image-size">
-           <div id="yazi2" class="yazi-property"></div>     
+        <div class="box" id="box2"> <!-- İkinci box -->
+           <img id="image2" src="" alt="image 2" class="image-size">
+           <div id="text2" class="text-property"></div>     
         </div>
         
-        <div class="kutu" id="kutu3"> <!-- Üçüncü Kutu -->
-          <img id="resim3" src="" alt="Resim 3" class="image-size">
-          <div id="yazi3" class="yazi-property"></div>  
+        <div class="box" id="box3"> <!-- Üçüncü box -->
+          <img id="image3" src="" alt="image 3" class="image-size">
+          <div id="text3" class="text-property"></div>  
         </div>
       </div>
       <div class="annocument">
@@ -45,23 +44,24 @@
     </div>
     <div class="overlay-text" id="helpText"></div>
     <form autocomplete="off">
-        <div class="search-city">
+      
             <input type="text" id="input" class="search-bar" placeholder="Lütfen Anahtar Kelime Giriniz Ör: email problemi" >
-        </div>
+      
         <ul class="list" ></ul>
     </form>
  
-    
- </div>
+  
+</div>
+ 
 
 
 
 
 
-  <script src="usernameCircle.js"></script> 
-  <script src="searchbar.js"></script> 
-  <script src="box.js"></script> 
-  <script src="header.js"></script> 
+  <script src="js/box.js"></script> 
+  <script src="js/header.js"></script> 
+  <script src="js/searchbar.js"></script> 
+  <script src="js/usernameCircle.js"></script> 
 
 
 </body>
