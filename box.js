@@ -1,15 +1,15 @@
 // Renk, yazı ve resim değişkenleri
 var renk1 = "#32b8de";
-var yazı1 = "Birinci Kutu";
+var yazı1 = "İstek Bildir";
 var resim1 = "images/audit.png";
 
 var renk2 = "#90cb25";
-var yazı2 = "İkinci Kutu";
+var yazı2 = "Sorun Bildir";
 var resim2 = "images/info.png";
 
 var renk3 = "#fe6672";
-var yazı3 = "Üçüncü Kutu";
-var resim3 = "images/bookshelf.png";
+var yazı3 = "Tüm Kayıtlarım";
+var resim3 = "images/books.png";
 
 // Birinci kutu özelliklerini ayarla
 document.getElementById("kutu1").style.backgroundColor = renk1;
