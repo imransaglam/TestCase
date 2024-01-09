@@ -36,6 +36,13 @@ input.addEventListener("keyup",(e)=>{
        }
     }
 });
+// Body'ye tıklandığında liste kapanacak
+document.body.addEventListener("click", (e) => {
+    // Check if the clicked element is outside the input and list
+    if (!e.target.matches("#input") && !e.target.closest(".list")) {
+      removeElements();
+    }
+  });
 function displayCities(value){
     input.value=value;
     removeElements();
