@@ -2,11 +2,11 @@ document.addEventListener("DOMContentLoaded", function() {
     var userNameElement = document.querySelector(".user p");
     var initialsCircleElement = document.querySelector(".initials-circle");
   
-    // İsim ve soyismin tamamını büyük harfe çevir
+    // İsim ve soyismin tamamını büyük harfe çevirme
     var fullName = userNameElement.textContent.toUpperCase();
     userNameElement.textContent = fullName;
   
-    // İsim ve soyismin baş harflerini al ve .initials-circle içine yerleştir
+    // İsim ve soyismin baş harflerini al ve .initials-circle içine yerleştirme
     var initials = getInitials(fullName);
     initialsCircleElement.textContent = initials;
   });

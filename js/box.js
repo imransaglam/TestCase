@@ -11,22 +11,22 @@ var color3 = "#fe6672";
 var text3 = "Tüm Kayıtlarım";
 var image3 = "images/books.png";
 
-// Birinci box özelliklerini ayarla
+// Box özelliklerini ayarla
 document.getElementById("box1").style.backgroundColor = color1;
 document.getElementById("text1").innerText = text1;
 document.getElementById("image1").src = image1;
 
-// İkinci box özelliklerini ayarla
+
 document.getElementById("box2").style.backgroundColor = color2;
 document.getElementById("text2").innerText = text2;
 document.getElementById("image2").src = image2;
 
-// Üçüncü box özelliklerini ayarla
+
 document.getElementById("box3").style.backgroundColor = color3;
 document.getElementById("text3").innerText = text3;
 document.getElementById("image3").src = image3;
 
-// Hover effect for box elements
+// Hover eklemek
 function darkenColor(color, percent) {
     var num = parseInt(color.replace("#", ""), 16),
       amt = Math.round(2.55 * percent),
