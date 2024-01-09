@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #0b4e95;
+  overflow: hidden;
+  height: 56px;
+ 
+}
+
+.navbar img {
+  float: left;
+  height: 50px;
+  padding-bottom: 10px;
+}
+
+.navbar-right {
+  float: right;
+  padding: 15px;
+  color: #fff;
+  text-align: center;
+  display:flex;
+  align-items: center;
+}
+
+.navbar-right p {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 500;
+  color: rgb(254, 251, 247);
+}
+.user{
+    display: flex;
+    align-items: center;
+    margin-left:20px;
+}
+.user p{
+    text-transform: uppercase;
+}
+.initials-circle {
+  
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 50%;
+    background-color: rgb(9, 56, 108);
+    color: rgb(254, 251, 247);
+    font-weight: bold;
+    font-size: 10px;
+    padding: 1px;
+    margin-right: 5px;
+}
+.background-container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 50vh;
+    /* overflow: hidden; */
+  }
+
+  .background-image {
+    width: 100%;
+    height: 100%; /* kaçlık kısım gözüksün ekranda */
+    object-fit: cover;
+    object-position: 55% 55%; /* center top konum */
+   
+  }
+  .img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(15, 46, 78,0.6); /* Örnek: Yarı şeffaf kırmızı */
+  }
+
+  .overlay-text {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+  }
+ 
+form{
+    width: 75vmin;
+    /* height: 100%; */
+    position: absolute;
+    top: 33%;
+    left: 46%;
+    transform: translateX(-50%);
+    padding: 40px 0;
+}
+input[type="text"]{
+    width: 117%;
+    padding: 12px 10px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    background-color:#fff ;
+    font-size: 12px;
+    text-indent: 10px; /* Sol kenardan 10px uzaklık */
+    
+}
+::placeholder {
+  color: #dfdfdf;  
+} 
+ul{
+    list-style: none;
+    padding-left: 15px;
+    margin: 1px;
+}
+.list{
+    width: 114%;
+    background-color: #fff;
+    border-radius: 0 0 5px 5px;
+    padding-left: 0px;
+    margin-left: 16px;
+    max-height: 75px; /* Öneri listesinin maksimum yüksekliği */
+    overflow-y: auto; /* Dikey scrollbar gösterme */
+}
+.list-items{
+    padding: 10px 5px;
+}
+.list-items:hover{
+    background-color: #ddd;
+}
+.kutu-container{
+  display: flex;
+  justify-content: center; /* Ortaya hizalama */
+  align-items: center;
+  height: 589px;
+}
+.kutu {
+  display: flex;
+  width: 150px;
+  height: 45px;
+  border-radius: 10px;
+  border: 2px solid #000;
+  text-align: center;
+  padding: 10px;
+}
